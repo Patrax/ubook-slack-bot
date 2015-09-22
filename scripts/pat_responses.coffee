@@ -6,7 +6,6 @@ module.exports = (robot) ->
 
   robot.hear /hey bookbot/i, (res) ->
     res.send "What up niglets? It's nice meeting you all...I guess..."
-    res.send '/giphy sup bitches'
 
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
